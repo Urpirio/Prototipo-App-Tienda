@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Prototipo-App-2",
+    "slug": "Prototipo-App-2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/assetsLogin/img/IconoApp.jpg",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/assetsLogin/img/IconoApp.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/assetsLogin/img/IconoApp.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/assetsLogin/img/IconoApp.jpg"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
