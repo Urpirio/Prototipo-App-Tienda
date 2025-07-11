@@ -96,7 +96,7 @@ export default function index() {
 
         </View>
 
-        <StatusBar barStyle={'default'}/>
+        <StatusBar barStyle={'dark-content'}/>
     </SafeAreaView>
   )
 }
