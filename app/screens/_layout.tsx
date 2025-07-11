@@ -7,10 +7,10 @@ export default function _layout() {
   return (
     <Tabs>
         <Tabs.Screen name="ScreenHome" options={{
-            title: 'Home',
+            title: '',
             tabBarIcon:({color})=>{
                 return <Image 
-                        style={{height:30,width:30,tintColor: color}} 
+                        style={{height:35,width:35,tintColor: color}} 
                         source={require('../../assets/assetsHome/icon/home.png')}/>
             },
             header:()=>{
@@ -18,26 +18,26 @@ export default function _layout() {
             }
         }}/>
         <Tabs.Screen name="ScreenStore" options={{
-            title:'Tienda',
+            title:'',
             tabBarIcon:({color})=>{
                 return <Image 
-                        style={{height:30,width:30,tintColor:color}} 
+                        style={{height:35,width:35,tintColor:color}} 
                         source={require('../../assets/assetsStore/icon/store-alt-2.png')}/>
             }
         }}/>
         <Tabs.Screen name="ScreenNotificacion" options={{
-            title:'Notificacion',
+            title:'',
             tabBarIcon:({color})=>{
                 return <Image 
-                        style={{height:30,width:30,tintColor:color}} 
+                        style={{height:35,width:35,tintColor:color}} 
                         source={require('../../assets/assetsNotificacion/Icon/bell.png')}/>
             }
         }}/>
         <Tabs.Screen name="ScreenPerfil" options={{
-            title:'Perfil',
+            title:'',
             tabBarIcon:({color})=>{
                 return <Image 
-                        style={{height:30,width:30,tintColor:color}} 
+                        style={{height:35,width:35,tintColor:color}} 
                         source={require('../../assets/assetsPerfil/icon/user-circle.png')}/>
             }
         }} />
