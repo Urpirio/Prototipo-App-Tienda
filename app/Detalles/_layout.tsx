@@ -42,7 +42,6 @@ export default function _layout() {
                             width:'70%',
                             height:'100%',
                             alignItems:'center',
-                            paddingVertical:20,
                             borderRadius:10
                         }}>
                             <Text style={{color:'white'}}>Buy Now</Text>
